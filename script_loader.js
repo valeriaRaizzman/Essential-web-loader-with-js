@@ -8,7 +8,7 @@ let int = setInterval(blurring, 30);
 function blurring() {
     load ++;
 
-    if(load > 99) {
+    if(load > 100) {
         clearInterval(int);
         document.body.classList.add('loaded');
         loadText.style.display = 'none'; // Hide the loadText element once loaded to 100%
